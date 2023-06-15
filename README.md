@@ -2,10 +2,10 @@
 
 The solution consists of ScoreBoard which is used to manage games and Game which keeps game properties. 
 Scoreboard enables to:
-- create a new game
-- finish a game
-- score goals for home and away teams
-- print results
+- creating a new game by calling startNewGame method which takes home team and away team as arguments
+- finishing a game by calling finishGame method 
+- score goals for home and away teams by calling scoreTeamHome and scoreTeamAway methods
+- print results by printResults method
 - results are sorted by date time and by total number of goals in a match
 
 Game consists of the following properties:
